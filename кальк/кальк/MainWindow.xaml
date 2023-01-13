@@ -25,7 +25,7 @@
         <Label x:Name="l1" Content="" HorizontalAlignment="Center" Height="49" Margin="0,325,0,0" VerticalAlignment="Top" Width="555"/>
         <Label Content="       Ответ" HorizontalAlignment="Left" Margin="262,161,0,145" Width="176" FontSize="36"/>
         <TextBox x:Name="C" HorizontalAlignment="Left" Height="62" Margin="452,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="176" FontSize="18" IsEnabled = 'false'/>
-        <TextBox HorizontalAlignment="Left" Height="164" Margin="58,161,0,0" TextWrapping="Wrap" Text="Для работы с функциями: Синус, Косинус, Тангенс, Котангенс требуется вписать значение в верхнее правое поле и выключить второе число." VerticalAlignment="Top" Width="199" FontSize="15" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Height="164" Margin="58,161,0,0" TextWrapping="Wrap" Text="Для работы с функциями: Синус, Косинус, Тангенс, Котангенс требуется вписать значение в верхнее левое поле и выключить второе число." VerticalAlignment="Top" Width="199" FontSize="15" IsEnabled="False"/>
 
     </Grid>
 </Window>
