@@ -1,0 +1,25 @@
+﻿<Window x:Class="_5_заданий.Задание_4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5_заданий"
+        mc:Ignorable="d"
+        Title="Задание_4" Height="450" Width="828">
+    <Grid Background="#FFF770">
+        <Image HorizontalAlignment="Left" Height="296" Margin="516,0,0,0" VerticalAlignment="Center" Width="274" Source="https://pic.onlinewebfonts.com/svg/img_425862.png" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Height="55" Margin="581,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="146" Text="            1 Кристалл &#xA;&#x9;     = &#xA;       20 золотых монет" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="176" Margin="28,167,0,0" VerticalAlignment="Top" Width="158" Source="http://cdn.onlinewebfonts.com/svg/img_556460.png"/>
+        <Image HorizontalAlignment="Left" Height="176" Margin="260,167,0,0" VerticalAlignment="Top" Width="158" Source="http://cdn.onlinewebfonts.com/svg/img_556460.png"/>
+        <Label Content="Ваше золото" HorizontalAlignment="Left" Height="58" Margin="28,348,0,0" VerticalAlignment="Top" Width="154" FontSize="23" FontWeight="Bold"/>
+        <Label x:Name="Z" Content="" HorizontalAlignment="Left" Height="48" Margin="46,269,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="K" Content="" HorizontalAlignment="Left" Height="48" Margin="278,271,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Ваши кристаллы" HorizontalAlignment="Left" Height="58" Margin="260,348,0,0" VerticalAlignment="Top" Width="197" FontSize="23" FontWeight="Bold"/>
+        <Button Content="Главное окно" HorizontalAlignment="Left" Height="66" Margin="10,10,0,0" VerticalAlignment="Top" Width="172" FontSize="24" FontWeight="Bold" Click="Button_Click" Background="#FFF3C96D"/>
+        <Button x:Name="Buy" Content="Купить" HorizontalAlignment="Left" Height="58" Margin="580,348,0,0" VerticalAlignment="Top" Width="146" FontSize="24" FontWeight="Bold" IsEnabled="False" Click="Buy_Click" Background="#FFF3C96D"/>
+        <TextBox x:Name="Kolv" HorizontalAlignment="Left" Height="66" Margin="278,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="Gold" Content="Введите начальное количество золота" HorizontalAlignment="Left" Height="66" Margin="419,10,0,0" VerticalAlignment="Top" Width="324" FontWeight="Bold" FontSize="16" Click="Gold_Click" Background="#FFF3C96D"/>
+        <TextBox x:Name="CR" HorizontalAlignment="Left" Height="26" Margin="581,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" IsEnabled="False" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

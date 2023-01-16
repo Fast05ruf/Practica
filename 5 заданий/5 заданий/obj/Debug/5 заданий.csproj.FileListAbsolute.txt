@@ -1,0 +1,51 @@
+C:\Users\anton\source\repos\5 заданий\5 заданий\bin\Debug\5 заданий.exe.config
+C:\Users\anton\source\repos\5 заданий\5 заданий\bin\Debug\5 заданий.exe
+C:\Users\anton\source\repos\5 заданий\5 заданий\bin\Debug\5 заданий.pdb
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.AssemblyReference.cache
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.SuggestedBindingRedirects.cache
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\MainWindow.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 1.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 3.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\App.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий_MarkupCompile.cache
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий_MarkupCompile.lref
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\MainWindow.baml
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 1.baml
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 3.baml
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.g.resources
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\_5_заданий.Properties.Resources.resources
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.GenerateResource.cache
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.exe
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\5 заданий.pdb
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 6.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 6.baml
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 5.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 5.baml
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 4.g.cs
+C:\Users\anton\source\repos\5 заданий\5 заданий\obj\Debug\Задание 4.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\bin\Debug\5 заданий.exe.config
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\bin\Debug\5 заданий.exe
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\bin\Debug\5 заданий.pdb
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 1.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 3.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 4.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 5.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 6.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий_MarkupCompile.cache
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий_MarkupCompile.lref
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 1.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 3.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 4.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 5.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\Задание 6.baml
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.g.resources
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\_5_заданий.Properties.Resources.resources
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.exe
+C:\Users\user\Desktop\Praktica\Practica\5 заданий\5 заданий\obj\Debug\5 заданий.pdb
