@@ -1,0 +1,19 @@
+﻿<Window x:Class="Циклы.Задание6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Циклы"
+        mc:Ignorable="d"
+        Title="Задание6" Height="223" Width="800">
+    <Grid>
+        <TextBox x:Name="FA" HorizontalAlignment="Left" Height="79" Margin="29,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" FontWeight="Bold" FontSize="36"/>
+        <Button x:Name="fa" Content="Узнать факториал" HorizontalAlignment="Left" Height="77" Margin="525,30,0,0" VerticalAlignment="Top" Width="209" FontWeight="Bold" FontSize="20" Click="fa_Click" Background="#FFCACCF4"/>
+        <Button Content="Главное окно" HorizontalAlignment="Left" Height="77" Margin="525,111,0,0" VerticalAlignment="Top" Width="209" FontWeight="Bold" FontSize="22" Click="Button_Click" Background="#FFF4EBCA"/>
+        <Label Content="! =" HorizontalAlignment="Left" Height="79" Margin="229,29,0,0" VerticalAlignment="Top" Width="72" FontWeight="Bold" FontSize="48"/>
+        <TextBox x:Name="l" HorizontalAlignment="Left" Height="79" Margin="306,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" FontWeight="Bold" FontSize="36" IsEnabled="False"/>
+        <Label Content="Поле вывода" HorizontalAlignment="Left" Height="41" Margin="306,113,0,0" VerticalAlignment="Top" Width="191" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Поле для ввода" HorizontalAlignment="Left" Height="41" Margin="29,113,0,0" VerticalAlignment="Top" Width="191" FontWeight="Bold" FontSize="23"/>
+
+    </Grid>
+</Window>
