@@ -1,0 +1,17 @@
+﻿<Window x:Class="Практика5.Задание5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практика5"
+        mc:Ignorable="d"
+        Title="Задание5" Height="126" Width="602">
+    <Grid>
+        <Label Content="Кол-во клиентов:" HorizontalAlignment="Left" Height="24" Margin="39,35,0,0" VerticalAlignment="Top" Width="125" FontWeight="Bold"/>
+        <TextBox x:Name="customers" HorizontalAlignment="Left" Height="24" Margin="169,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" FontWeight="Bold"/>
+        <Button x:Name="customersCount" Content="Высчитать кол-во маршрутов" HorizontalAlignment="Left" Height="24" Margin="273,35,0,0" VerticalAlignment="Top" Width="189" Click="customersCount_Click" FontWeight="Bold" Background="#FFCACCF4"/>
+        <TextBox x:Name="answer4" HorizontalAlignment="Left" Height="24" Margin="478,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" FontWeight="Bold" IsEnabled="False"/>
+        <Button Content="Главное окно" HorizontalAlignment="Left" Height="19" Margin="273,64,0,0" VerticalAlignment="Top" Width="189" FontWeight="Bold" Click="Button_Click" Background="#FFF4EBCA"/>
+
+    </Grid>
+</Window>

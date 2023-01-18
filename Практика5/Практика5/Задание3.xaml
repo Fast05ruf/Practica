@@ -1,0 +1,16 @@
+﻿<Window x:Class="Практика5.Задание3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Практика5"
+        mc:Ignorable="d"
+        Title="Задание3" Height="170" Width="771">
+    <Grid>
+        <TextBox x:Name="answer3" HorizontalAlignment="Left" Height="91" Margin="300,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" FontWeight="Bold" FontSize="16" IsEnabled="False"/>
+        <TextBox x:Name="number1" HorizontalAlignment="Left" Height="43" Margin="28,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" FontWeight="Bold" FontSize="20"/>
+        <Button x:Name="check" Content="Проверить" HorizontalAlignment="Left" Height="43" Margin="157,31,0,0" VerticalAlignment="Top" Width="122" Click="check_Click" FontWeight="Bold" Background="#FFCACCF4"/>
+        <Button Content="Главное окно" HorizontalAlignment="Left" Height="43" Margin="157,79,0,0" VerticalAlignment="Top" Width="122" FontWeight="Bold" Background="#FFF4EBCA" Click="Button_Click"/>
+
+    </Grid>
+</Window>
