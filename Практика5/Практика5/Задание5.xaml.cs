@@ -24,22 +24,26 @@ namespace Практика5
             InitializeComponent();
         }
 
+        public string Chisl(int n)
+        {
+            int i = 1;
+            int sum = 1;
+        LB1: if (i <= n)
+            {
+                sum *= i;
+                i++;
+                goto LB1;
+            }
+            else
+                return "" + sum;
+        }
+
         private void customersCount_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-
                 int n = Convert.ToInt32(customers.Text);
-                int i = 1;
-                int sum = 1;
-            LB1: if (i <= n)
-                {
-                    sum *= i;
-                    i++;
-                    goto LB1;
-                }
-                else
-                    answer4.Text = Convert.ToString(sum);
+                answer4.Text = Chisl(n);
             }
             catch { MessageBox.Show("Неверный формат данных"); }
         }

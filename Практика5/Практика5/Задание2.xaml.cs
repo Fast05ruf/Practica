@@ -24,13 +24,20 @@ namespace Практика5
             InitializeComponent();
         }
 
+        public string Vr()
+        {
+            string c = "";
+            double Money = Convert.ToDouble(money.Text);
+            double Conversion = Convert.ToDouble(conversion.Text);
+            c = Convert.ToString(Money * Conversion);
+            return c;
+        }
+
         private void countMoney_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                double Money = Convert.ToDouble(money.Text);
-                double Conversion = Convert.ToDouble(conversion.Text);
-                answer2.Content = Money * Conversion;
+                answer2.Content = Vr();
             }
             catch { MessageBox.Show("Неверный формат данных"); }
         }

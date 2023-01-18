@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Задание4" Height="187" Width="449">
     <Grid>
-        <TextBox x:Name="Info" HorizontalAlignment="Left" Height="50" Margin="34,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366"/>
+        <TextBox x:Name="Info" HorizontalAlignment="Left" Height="50" Margin="34,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" IsEnabled="False"/>
 
         <Label Content="Введите сумму платежа:" HorizontalAlignment="Left" Height="24" Margin="30,28,0,0" VerticalAlignment="Top" Width="161" FontWeight="Bold"/>
         <TextBox x:Name="payment" HorizontalAlignment="Left" Height="24" Margin="205,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88"/>

@@ -24,39 +24,38 @@ namespace Практика5
             InitializeComponent();
         }
 
+        public string Vr()
+        {
+            string c = "";
+            double x = Convert.ToDouble(number1.Text);
+            if (x >= 0)
+                c = "Число положительное, ";
+            else
+                c = "Число отрицательное, ";
+
+            if (x/x == 1 & x/1 == x & x - Math.Truncate(x) == 0)
+            {
+                c += "число простое, ";
+            }
+            else
+            {
+                c += "число не простое, ";
+            }
+            if (x % 2 == 0 & x % 3 == 0 & x % 5 == 0 & x % 6 == 0 & x % 9 == 0)
+            {
+                c += "Число делится на 2, 3, 5, 6, 9 без остатка";
+            }
+            else
+                c += "Число делится на 2, 3, 5, 6, 9 с остатком";
+            return c;
+        }
+
         private void check_Click(object sender, RoutedEventArgs e)
         {
+
             try
             {
-                int x = Convert.ToInt32(number1.Text);
-                if (x >= 0)
-                    answer3.Text = "Число положительное, ";
-                else
-                    answer3.Text = "Число отрицательное, ";
-
-                bool prost = true;
-                for (int i = 2; i <= x / 2; i++)
-                {
-                    if (x % i == 0)
-                    {
-                        prost = false;
-                        break;
-                    }
-                }
-                if (prost)
-                {
-                    answer3.Text += "число простое, ";
-                }
-                else
-                {
-                    answer3.Text += "число не простое, ";
-                }
-                if (x % 2 == 0 & x % 3 == 0 & x % 5 == 0 & x % 6 == 0 & x % 9 == 0)
-                {
-                    answer3.Text += "Число делится на 2, 3, 5, 6, 9 без остатка";
-                }
-                else
-                    answer3.Text += "Число делится на 2, 3, 5, 6, 9 с остатком";
+                answer3.Text = Vr();
             }
             catch
             {

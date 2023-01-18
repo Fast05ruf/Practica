@@ -24,36 +24,34 @@ namespace Практика5
             InitializeComponent();
         }
 
+        double x = 0;
         int i = 0;
-        private void pay_Click(object sender, RoutedEventArgs e)
+        public string Vr()
         {
-            try
+            string c = "";
+            double y = Convert.ToDouble(payment.Text);
+            x += y;
+            if (i < 7)
             {
-                int y = Convert.ToInt32(payment.Text);
-                int x = 0;
-                x += y;
-                if (i <= 7)
+                if (x < 5000)
                 {
-                    if (x < 5000)
-                    {
-                        Info.Text = $"Сумма задолженности {5000 - x}";
-                        i++;
-                    }
-                    else if (x == 5000)
-                    {
-                        i++;
-                        Info.Text = "Долг погашен";
-                    }
-                    else if (x > 5000)
-                    {
-                        i++;
-                        Info.Text = $"Долг погашен, переплата {x - 5000}";
-                    }
+                    c = $"Сумма задолженности {5000 - x}";
+                    i++;
                 }
-                else
-                    Info.Text = "Вы не успели погасить долг";
+                else if (x == 5000)
+                {
+                    i++;
+                    c = "Долг погашен";
+                }
+                else if (x > 5000)
+                {
+                    i++;
+                    c = $"Долг погашен, переплата {x - 5000}";
+                }
             }
-            catch { MessageBox.Show("Неверный формат данных"); }
+            else
+                c = "Вы не успели погасить долг";
+            return c;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -61,6 +59,18 @@ namespace Практика5
             MainWindow mainWindow = new MainWindow();
             Visibility = Visibility.Hidden;
             mainWindow.Show();
+        }
+
+        private void pay_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Info.Text = Vr();
+            }
+            catch
+            {
+                MessageBox.Show("Неверный формаи данных");
+            }
         }
     }
 }
